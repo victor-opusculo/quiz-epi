@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<EPI-Quiz>
+	<Settings>
+		<CookieName>EPIQUIZ003</CookieName>
+		<StartPageTitle>Terceira Fase – Cidadania</StartPageTitle>
+		<StartPageContent><![CDATA[<center>Clique no botão abaixo para iniciar o quiz.</center> <br/><br/>]]></StartPageContent>
+		<EndPageContent><![CDATA[<center>Você completou o quiz sobre cidadania.</center>]]></EndPageContent>
+		<PostResultContent><![CDATA[<center><input type="button" class="button" value="Voltar" onClick="location.href='index.html'"/></center>]]></PostResultContent>
+    	<Randomize>1</Randomize>
+  	</Settings>
+	<Questions>
+	
+		<Question>
+			<Text>O cidadão tem apenas Direitos. Selecione uma das opções:</Text>
+			<Options>
+				<Option>Verdadeiro</Option>
+				<Option>Falso</Option>
+			</Options>
+			<A>1</A>
+			<Information>O cidadão exerce a cidadania quando cumpre seus deveres com o Estado e a sociedade e usufrui de seus direitos. Os direitos e deveres do cidadão estão previstos na Constituição do Brasil.</Information>
+		</Question>
+		
+		<Question>
+			<Text>O que é cidadania?</Text>
+			<Options>
+				<Option>É o exercício dos direitos e deveres civis, políticos e sociais do cidadão</Option>
+				<Option>É o regime político em que a soberania é exercida pelo povo</Option>
+				<Option>A efetiva ação do Estado e do Governo em diferentes áreas</Option>
+				<Option>Conjunto de valores morais e princípios que norteiam a conduta humana na sociedade</Option>
+			</Options>
+			<A>0</A>
+			<Information>A cidadania é uma construção coletiva onde cada um deve cumprir seus deveres perante a sociedade e o Estado. É o exercício dos direitos e deveres civis, políticos e sociais do cidadão.</Information>
+		</Question>
+		
+		<Question>
+			<Text>O conjunto de dispositivos fundamentais que organiza e rege o funcionamento de Estado Brasileiro é denominado:</Text>
+			<Options>
+				<Option>Regimento Interno</Option>
+				<Option>Constituição Federal</Option>
+				<Option>Projeto de Lei</Option>
+				<Option>Lei Orgânica</Option>
+			</Options>
+			<A>1</A>
+			<Information>A Constituição Federal Brasileira de 1988, também conhecida como “Constituição Cidadã” é considerada a lei máxima e obrigatória entre todos os cidadãos brasileiros, servindo como garantia dos seus direitos e deveres.</Information>
+		</Question>
+		
+		<Question>
+			<Text><![CDATA[A discussão levantada pela charge abaixo faz referência a que conjuntos de direitos estabelecidos pela “Constituição Cidadã” de 1988? <br/><img src="pics/direitoscivis.jpg"/>]]></Text>
+			<Options>
+				<Option>Direitos Civis</Option>
+				<Option>Direitos Coletivos</Option>
+				<Option>Direitos Políticos</Option>
+				<Option>Direitos Sociais</Option>
+			</Options>
+			<A>3</A>
+			<Information>A Constituição Federal de 1988 estabelece um conjunto de direitos aos cidadãos: DIREITOS CIVIS – direito à vida e à igualdade, à liberdade de expressão e à propriedade. DIREITOS POLÍTICOS - votar e ser votado, soberania popular e participação democrática. DIREITOS SOCIAIS - previdência social, moradia, saúde, educação, salário digno entre outros.</Information>
+		</Question>
+		
+		<Question>
+			<Text>“O Brasil tem uma das Legislações mais completas no que diz respeito aos Direitos Humanos.”</Text>
+			<Options>
+				<Option>Verdadeiro</Option>
+				<Option>Falso</Option>
+			</Options>
+			<A>0</A>
+			<Information>A Constituição Brasileira é muito completa, mas ainda existem muitas dificuldades em tirar esses princípios do papel. O problema é que a lei nem sempre é cumprida.</Information>
+		</Question>
+			
+		<Question>
+			<Text>Diretas Já, movimento iniciado em 1984, se tornou um dos maiores movimentos populares de toda a nossa história, que procurava restabelecer o quê?</Text>
+			<Options>
+				<Option>O Federalismo Brasileiro</Option>
+				<Option>Uma Nova Constituição</Option>
+				<Option>A Democracia e Eleições Diretas para Presidente</Option>
+				<Option>Anistia a Políticos Cassados pelo Regime de 1964</Option>
+			</Options>
+			<A>2</A>
+			<Information>A campanha pedindo eleições diretas e abertura democrática iniciou-se em 25 de janeiro de 1984, foi uma campanha de todos os partidos de oposição à ditadura militar, porém a proposta de emenda das Diretas já foi rejeitada pelo Congresso Nacional, provocando enorme decepção ao povo brasileiro.</Information>
+		</Question>
+
+		<Question>
+			<Text>O Brasil é uma República</Text>
+			<Options>
+				<Option>Parlamentarista</Option>
+				<Option>Presidencialista</Option>
+				<Option>Monarquia</Option>
+				<Option>Semi Presidencialista</Option>
+			</Options>
+			<A>1</A>
+			<Information>No Presidencialismo o poder predominante neste sistema é do Executivo, exercido pelo Presidente da República, que acumula as funções de Chefe de Estado e chefe de Governo. O presidente é eleito por meio de voto direto da população, para um mandato de quatro anos.</Information>
+		</Question>
+
+		<Question>
+			<Text>A República Federativa do Brasil que se constitui em um Estado Democrático de Direito, foi fundada pela Constituição de:</Text>
+			<Options>
+				<Option>1988</Option>
+				<Option>1824</Option>
+				<Option>1891</Option>
+				<Option>1967</Option>
+			</Options>
+			<A>0</A>
+			<Information>Por força do que está firmado na Constituição brasileira em vigor, promulgada em 05 de outubro de 1988, nosso país é uma federação (forma de Estado), é uma república (forma de Governo) onde vigora a democracia semidireta e representativa (regime político) e o presidencialismo (sistema de Governo).</Information>
+		</Question>
+
+		<Question>
+			<Text>O ato de escolher os governantes através do voto é:</Text>
+			<Options>
+				<Option>Direito</Option>
+				<Option>Dever</Option>
+				<Option>Direto e Dever</Option>
+				<Option>Uma Obrigação</Option>
+			</Options>
+			<A>2</A>
+			<Information>O voto é um dever de cada um de nós, pois é através desse procedimento que manifestamos nossa vontade, é também um direito político, através de nossa escolha com consciência estamos exercendo nossa cidadania, nosso legítimo direito de participar.</Information>
+		</Question>
+
+		<Question>
+			<Text>Quais são os Poderes da República Federativa do Brasil?</Text>
+			<Options>
+				<Option>STF, Governo Federal e Ministério Público</Option>
+				<Option>Executivo, Legislativo, Judiciário e Ministério Público</Option>
+				<Option>União, Estados e Municípios</Option>
+				<Option>Executivo, Legislativo e Judiciário</Option>
+			</Options>
+			<A>3</A>
+			<Information>O Título IV – Da Organização dos Poderes, da Constituição Federal de 1988, divide os Poderes em: Poder Legislativo – Capitulo I, Poder Executivo – Capitulo II, e Poder Judiciário – Capítulo III, cabe ao Legislativo, propor e aprovar leis e fiscalizar o Poder Executivo, ao Executivo cabem todos os Atos de Administração do Estado dentro do limite da lei e ao poder Judiciário interpretar as leis elaboradas pelo Legislativo e promulgadas pelo Executivo. Ele deve aplicá-las em diferentes situações e julgar aqueles cidadãos que, por diversos motivos, não as cumprem.</Information>
+		</Question>
+
+	</Questions>
+	
+</EPI-Quiz>

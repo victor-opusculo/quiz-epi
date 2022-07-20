@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<EPI-Quiz>
+	<Settings>
+		<CookieName>EPIQUIZ001</CookieName>
+		<StartPageTitle>Primeira Fase – História de Itapevi</StartPageTitle>
+		<StartPageContent><![CDATA[<center>Clique no botão abaixo para iniciar o quiz.</center> <br/><br/>]]></StartPageContent>
+		<EndPageContent><![CDATA[<center>Você completou o quiz sobre a História de Itapevi.</center>]]></EndPageContent>
+		<PostResultContent><![CDATA[<center><input type="button" class="button" value="Voltar" onClick="location.href='index.html'"/> <input type="button" class="button" value="Próxima Fase" onClick="location.href='quiz.html?mod=2'"/></center>]]></PostResultContent>
+    	<Randomize>1</Randomize>
+  	</Settings>
+	<Questions>
+	
+		<Question>
+			<Text>Itapevi emancipou-se de qual município?</Text>
+			<Options>
+				<Option>São Roque</Option>
+				<Option>Jandira</Option>
+				<Option>Cotia</Option>
+				<Option>Vargem Grande Paulista</Option>
+			</Options>
+			<A>2</A>
+			<Tips>
+			</Tips>
+			<Information>Em 10 de julho de 1878 foi inaugurada a Estação de Cotia da Estrada de Ferro Sorocabana (EFS) uma pequena plataforma coberta de telhas, em torno da qual se formou o núcleo central de Itapevi, até então chamada de Vila Cotia. Apenas em 1945 passou a se chamar Itapevi e em 1959 emancipou-se de da cidade de Cotia.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Você sabe qual o significado do nome Itapevi?</Text>
+			<Options>
+				<Option>Fonte de Água Cristalina</Option>
+				<Option>Terra Bonita</Option>
+				<Option>Rio das Pedras Pequenas</Option>
+				<Option>Pedra Chata e Lisa </Option>
+			</Options>
+			<A>3</A>
+			<Tips>
+			</Tips>
+			<Information>O nome Itapevi vem do Tupi Guarani e significa “Pedra Chata e Lisa” (Ita=Pedra Pevi= Chata e Lisa).</Information>
+		</Question>
+
+		<Question>
+			<Text>Qual a data da emancipação política de Itapevi?</Text>
+			<Options>
+				<Option>18 de fevereiro de 1968</Option>
+				<Option>18 de fevereiro de 1947</Option>
+				<Option>18 de fevereiro de 1965</Option>
+				<Option>18 de fevereiro de 1959</Option>
+			</Options>
+			<A>3</A>
+			<Tips>
+			</Tips>
+			<Information>No plebiscito realizado em 1958, cerca de novecentas pessoas optaram pela emancipação, contra apenas trinta que não desejavam a autonomia. Naquele mesmo ano foi formalizada pelo governador Jânio Quadros a lei que criava o município de Itapevi instalado oficialmente só no ano seguinte em 18 de fevereiro de 1959, pelo governador Carvalho Pinto.</Information>
+		</Question>
+
+		<Question>
+			<Text>O movimento emancipacionista de Itapevi teve quantos participantes?</Text>
+			<Options>
+				<Option>23</Option>
+				<Option>20</Option>
+				<Option>21</Option>
+				<Option>19</Option>
+			</Options>
+			<A>0</A>
+			<Tips>
+			</Tips>
+			<Information>A emancipação de Itapevi contou com a participação de 23 personalidades. Foram eles: Américo Valentim Christianini, Antonio Pedro Pereira, Arnaldo Cordeiro das Neves, Aylton Ferraz Freitas, Bonifácio de Abreu, Carlos de Castro, Cesário de Abreu, Ezequiel Dias Siqueira, Joaquim Mendes de Morares, Joaquim Nunes, Jorge Benedicto Chiovetto, José Baptista Silveira, José Chaluppe, José dos Santos Novaes, Josué Geraldo Guimarães, Lincoln Cesar do Amaral, Nicolau Leonardo, Orestino Santiago Ramos, Raul Leonardo, Rubens Caramez, Deputado Estadual Dante Yatauro Perri, João Domingues e Padre Romeo Mecca.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Quem é o autor do hino de Itapevi? </Text>
+			<Options>
+				<Option>Raul Leonardo</Option>
+				<Option>João Domingues</Option>
+				<Option>Guilherme de Almeida</Option>
+				<Option>Joaquim Osório Duque Estrada</Option>
+			</Options>
+			<A>1</A>
+			<Tips>
+			</Tips>
+			<Information>A letra do hino municipal de Itapevi foi composta pelo emancipador João Domingues.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Quem foi o primeiro prefeito de Itapevi?</Text>
+			<Options>
+				<Option>Romeu Manfrinatto</Option>
+				<Option>Osmar de Souza</Option>
+				<Option>Rubens Caramez</Option>
+				<Option>Silas Manoel de Oliveira</Option>
+			</Options>
+			<A>2</A>
+			<Tips>
+			</Tips>
+			<Information>O primeiro prefeito foi Rubens Caramez que venceu às eleições contra Carlos de Castro.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Você sabe quantos vereadores foram eleitos para primeira legislatura, 1960 a 1963, para Câmara de Itapevi?</Text>
+			<Options>
+				<Option>9</Option>
+				<Option>11</Option>
+				<Option>13</Option>
+				<Option>17</Option>
+			</Options>
+			<A>1</A>
+			<Tips>
+			</Tips>
+			<Information>Para primeira legislatura foram eleitos 11 vereadores: Américo Fernandes, Bemvindo Moreira Nery, Cristino Gonçalves Junior, Francisco Nazarino do Nascimento, Joaquim Mendes de Moraes, José Novaes, Mario Cavanha, Miguel Leonardo, Paulo Nunes, Pedro de Oliveira e Silva e Satiro Pedro Paiva. A primeira legislatura teve como presidentes os vereadores: Joaquim Mendes de Moraes (01/1961 a 12/1961 e 01/1963 a 12/1963) e Paulo Nunes (01/1962 a 12/1962).</Information>
+		</Question>
+
+		<Question>
+			<Text>Você sabe onde foi instalada a primeira sede da Câmara Municipal?</Text>
+			<Options>
+				<Option>Avenida Presidente Vargas.</Option>
+				<Option>Rua Arnaldo Sergio Cordeiro das Neves.</Option>
+				<Option>Avenida Cezário de Abreu.</Option>
+				<Option>Rua Joaquim Nunes.</Option>
+			</Options>
+			<A>2</A>
+			<Information>Antes de mudar para Rua Arnaldo Sérgio Cordeiro das Neves, 80, a Câmara de Itapevi passou por mais dois endereços, o primeiro deles foi na Avenida Cezário de Abreu, onde hoje funciona a Casas Bahia.</Information>
+		</Question>
+
+		<Question>
+			<Text>Toda cidade possui um padroeiro (a), você sabe qual é o de Itapevi?</Text>
+			<Options>
+				<Option>São Judas Tadeu</Option>
+				<Option>Rita de Cássia</Option>
+				<Option>São José</Option>
+				<Option>São Francisco de Assis</Option>
+			</Options>
+			<A>0</A>
+			<Information>São Judas Tadeu é o padroeiro de Itapevi e também o patrono da Igreja Matriz.</Information>
+		</Question>
+
+		<Question>
+			<Text>O brasão da bandeira de Itapevi tem uma escrita em latim: “Labor Et Progressum”, você sabe qual o significado?</Text>
+			<Options>
+				<Option>Progresso e Trabalho</Option>
+				<Option>Trabalho, Educação e Progresso</Option>
+				<Option>Trabalho e Progresso</Option>
+				<Option>Cidade de Progresso</Option>
+			</Options>
+			<A>2</A>
+			<Information>O termo em latim: “Labor Et Progressum” no brasão significa: Trabalho e Progresso.</Information>
+		</Question>
+		
+	</Questions>
+	
+</EPI-Quiz>

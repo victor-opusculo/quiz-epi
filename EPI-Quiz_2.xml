@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<EPI-Quiz>
+	<Settings>
+		<CookieName>EPIQUIZ002</CookieName>
+		<StartPageTitle>Segunda Fase – Poder Legislativo Municipal</StartPageTitle>
+		<StartPageContent><![CDATA[<center>Clique no botão abaixo para iniciar o quiz.</center> <br/><br/>]]></StartPageContent>
+		<EndPageContent><![CDATA[<center>Você completou o quiz sobre o Poder Legislativo Municipal.</center>]]></EndPageContent>
+		<PostResultContent><![CDATA[<center><input type="button" class="button" value="Voltar" onClick="location.href='index.html'"/> <input type="button" class="button" value="Próxima Fase" onClick="location.href='quiz.html?mod=3'"></center>]]></PostResultContent>
+    	<Randomize>1</Randomize>
+  	</Settings>
+	<Questions>
+	
+		<Question>
+			<Text>Quais são os três poderes atuantes no município?</Text>
+			<Options>
+				<Option>Governo do Estado, Câmara Municipal e Senado.</Option>
+				<Option>Prefeitura, Procuradoria Geral da República e Câmara Municipal.</Option>
+				<Option>Poder Judiciário, Câmara Municipal e Prefeitura.</Option>
+				<Option>Assembleia Legislativa – Prefeitura e Câmara Municipal.</Option>
+			</Options>
+			<A>2</A>
+			<Information>Os governos municipais são aqueles que estão mais próximos dos cidadãos, em suas respectivas cidades. Como ocorre nas esferas nacional e estadual: O judiciário é representado pelos juízes, o Legislativo pela Câmara Municipal e o Executivo pela Prefeitura.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Você sabe quantos vereadores tem a Câmara de Itapevi?</Text>
+			<Options>
+				<Option>21</Option>
+				<Option>17</Option>
+				<Option>13</Option>
+				<Option>9</Option>
+			</Options>
+			<A>1</A>
+			<Information>A Câmara de Itapevi, na atual legislatura 2021-2024, possui 17 vereadores eleitos pelo povo.</Information>
+		</Question>
+		
+		<Question>
+			<Text>O que é Legislatura?</Text>
+			<Options>
+				<Option>Mandato de dois anos dos vereadores.</Option>
+				<Option>Corresponde ao que é votado nas sessões.</Option>
+				<Option>Corresponde a um período de quatro anos dos mandatos.</Option>
+				<Option>Nome técnico para acompanhamento das pautas e arquivamento dos processos.</Option>
+			</Options>
+			<A>2</A>
+			<Information>Complemento: Corresponde a um período de quatro anos que coincide exatamente com a duração do mandato dos vereadores (Constituição Federal, art. 44).  Tem início em 1º de janeiro do ano seguinte ao da eleição, quando se dá a posse dos vereadores eleitos, e termina em 31 de dezembro do ano da eleição municipal subsequente. Por exemplo, a 15ª legislatura iniciou em 01/01/2021 e terminará em 31/12/2024.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Qual a função dos vereadores na Câmara Municipal?</Text>
+			<Options>
+				<Option>Os vereadores possuem a função de discutir as questões locais e fiscalizar o ato do Executivo Municipal (Prefeito) com relação à administração e gastos do orçamento, votar as contas do prefeito, propor leis e elaborar a Lei Orgânica do Município.</Option>
+				<Option>Fiscalizar o Poder Executivo municipal, votar as contas do prefeito, distribuir cesta básica e agendar consultas.</Option>
+				<Option>Os vereadores possuem funções restritas e não podem fiscalizar as ações da prefeitura e não propor leis.</Option>
+				<Option>Atender os anseios da população, buscar soluções para os problemas existentes nos bairros e cobrar ações efetivas da prefeitura.</Option>
+			</Options>
+			<A>0</A>
+			<Information>Complemento: Os vereadores possuem a função de fiscalizar o ato do Executivo Municipal (Prefeito) com relação à administração e gastos do orçamento. Eles devem trabalhar em função da melhoria da qualidade de vida da população, elaborando leis, recebendo o povo, desempenhando a função de mediador entre os habitantes e o prefeito. Outra importante atribuição a um vereador é a elaboração da Lei Orgânica do Município uma espécie de Constituição Municipal.</Information>
+		</Question>
+		
+		<Question>
+			<Text>A Câmara Municipal é administrada pela Mesa Diretora, você sabe quantos cargos tem a mesa?</Text>
+			<Options>
+				<Option>8</Option>
+				<Option>17</Option>
+				<Option>3</Option>
+				<Option>7</Option>
+			</Options>
+			<A>2</A>
+			<Information>A Mesa Diretora é o órgão de direção da Câmara. A ela cabe a direção dos trabalhos legislativos e dos serviços administrativos da Câmara, destacando-se os atos de Direção, Administração e Execução das deliberações aprovadas em Plenário. A Mesa Diretora da Câmara municipal de Itapevi é composta pelo Presidente, 1º Secretário e 2º Secretário, segundo o art. 12, Regimento Interno.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Qual a duração do mandato da Mesa Diretora?</Text>
+			<Options>
+				<Option>Quatro anos.</Option>
+				<Option>Um ano.</Option>
+				<Option>Um ano e meio.</Option>
+				<Option>Dois anos.</Option>
+			</Options>
+			<A>3</A>
+			<Information>O mandato dos membros da Mesa diretora é de dois anos, não podendo haver reeleição para a mesma função, exceto quando em legislaturas diferentes. (Regimento Interno da Câmara Municipal de Itapevi).</Information>
+		</Question>
+		
+		<Question>
+			<Text>Quais são as comissões permanentes da Câmara de Itapevi?</Text>
+			<Options>
+				<Option>Justiça e Redação; Finanças e Orçamento; Ordem Social e Econômica e Serviços Públicos; Fiscalização e Controle.</Option>
+				<Option>Educação e Cultura; Cidadania; Justiça e Redação; Finanças e Orçamento e Saúde.</Option>
+				<Option>Controle Social; Desenvolvimento Urbano; Fiscalização e Controle; Justiça e Redação.</Option>
+				<Option>Justiça e Redação; Ordem Social; Serviços Públicos; Saúde e Fiscalização e Controle.</Option>
+			</Options>
+			<A>0</A>
+			<Information>As comissões são órgãos de caráter técnico-legislativo composto por vereadores, observado o princípio da representação proporcional dos Partidos e dos Blocos Parlamentares com atuação na Casa. Podem ser permanentes ou temporárias. As comissões permanentes são Justiça e Redação; Finanças e Orçamento; Ordem Social e Econômica e Serviços Públicos; Fiscalização e Controle.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Os projetos votados pelos vereadores, toda semana, em plenário ocorrem em qual tipo de sessão?</Text>
+			<Options>
+				<Option>Solene</Option>
+				<Option>Ordinária</Option>
+				<Option>Extraordinária</Option>
+				<Option>Votação</Option>
+			</Options>
+			<A>1</A>
+			<Information>As votações dos projetos e documentos ocorrem nas sessões ordinárias. Na Câmara de Itapevi, elas acontecem as terças-feiras no período da manhã. A pauta da votação fica disponível no site da Câmara.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Qual a diferença entre Legislatura e Sessão Legislativa?</Text>
+			<Options>
+				<Option>Não há diferença.</Option>
+				<Option>A Legislatura tem duração de quatro e a Sessão Legislativa de um dia.</Option>
+				<Option>A Sessão Legislativa é composta unicamente pelas sessões solene e extraordinária.</Option>
+				<Option>A Legislatura tem duração de quatro anos e a sessão legislativa é cada período de um ano da legislatura, excluído o recesso parlamentar.</Option>
+			</Options>
+			<A>3</A>
+			<Information>A Legislatura tem duração de quatro anos e coincide sempre com a duração do mandato dos vereadores. Uma legislatura divide-se em quatro sessões legislativas ordinárias, que constituem o calendário anual de trabalho da Câmara Municipal.</Information>
+		</Question>
+		
+		<Question>
+			<Text>Como se renova a composição da Câmara Municipal?</Text>
+			<Options>
+				<Option>Em eleições que ocorrem a cada dois anos.</Option>
+				<Option>Em eleições regulares que ocorrem a cada quatro anos.</Option>
+				<Option>Por indicação do prefeito a cada quatro anos.</Option>
+				<Option>Por meio de eleição indireta entre os poderes executivo e judiciário.</Option>
+			</Options>
+			<A>1</A>
+			<Information>A composição das Câmaras Municipais é renovada a cada quatro anos em um processo eleitoral democrático, o que corresponde a uma legislatura.</Information>
+		</Question>		
+		
+	</Questions>
+	
+</EPI-Quiz>

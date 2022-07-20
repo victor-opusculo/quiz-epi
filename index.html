@@ -1,0 +1,169 @@
+﻿<!-- Desenvolvido por Victor Opusculo -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Quiz - Escola do Parlamento de Itapevi</title>
+	<style type="text/css">
+
+		body 
+		{
+			/*background-color: #22B14C;*/
+			background-color: white;
+			color: black;
+			font-size: x-large;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-khtml-user-select: none;
+			-webkit-touch-callout: none;
+			-ms-user-select: none;
+			user-select: none;
+			margin: 0;
+		}
+
+		form
+		{
+			display: block;
+			background-color: white;
+			max-width: 700px;
+			min-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 0;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 20px;
+			padding-bottom: 30px;
+            border-radius: 10px;
+		}
+		
+		.presentationText
+		{
+			font-size: x-large;
+			text-align: justify;
+		}
+
+		.rightControl 
+		{
+			text-align: right;
+		}
+
+		h1, h2, .centControl 
+		{
+			text-align: center;
+		}
+		
+		a.moduleLink
+		{
+			display: block;
+			margin: 10px;
+			font-size: 110%;
+			padding: 3px 50px 3px 50px;
+			border: solid 1px #BBB;
+			border-radius: 5px;
+			font-weight: bold;
+			color: black;
+			background-color: #EEE;
+			text-decoration: none;
+			box-shadow: inset 0px -7px 10px 0 rgba(0, 0, 0, 0.12);
+			transition-duration: 0.1s;
+		}
+		
+		a.moduleLink:hover
+		{
+			background-color: #DDD;
+		}
+		
+		a.moduleLink:active
+		{
+			font-size: 109%;
+			background-color: #DDD;
+			box-shadow: inset 0px 7px 10px 0 rgba(0, 0, 0, 0.12);
+		}
+
+		main
+		{
+			display: block;
+			margin: 30px 0 0 0;
+			padding: 0;
+			min-height: calc(100vh - 308px); /* space filler for "Sticky footer" */
+		}
+
+		footer
+		{
+			background-image:url('pics/rodape.jpg');
+			background-repeat: repeat-x;
+			left: 0;
+			right: 0;
+			height: 100px;
+		}
+
+		#Logos
+		{
+			background-color: white;
+			padding: 20px;
+			bottom: 100px;
+			left: 0;
+			right: 0;
+			overflow: auto;
+		}
+
+	</style>
+	<script>
+		function GetCookie(cname) 
+		{
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for(var i = 0; i <ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+
+		window.onload = function()
+		{
+			if (Boolean(GetCookie("EPIQUIZ001")))
+				document.getElementById("q2link").style.display = "block";
+
+			if (Boolean(GetCookie("EPIQUIZ002")))
+				document.getElementById("q3link").style.display = "block";
+		};
+	</script>
+</head>
+
+<body>
+	<main>
+		<form>
+			<h1>Quiz</h1>
+			<p class="presentationText">
+				Bem-vindo ao quiz da Escola do Parlamento de Itapevi! 
+			</p>
+			<p class="presentationText">	
+				Teste aqui seus conhecimentos sobre a história de Itapevi, sobre o Poder Legislativo e sobre cidadania. São três fases no total, cada uma com dez questões. Após responder cada pergunta, será exibida a resposta correta e uma explicação complementando a resposta.
+			</p>
+			<div class="centControl">
+				<a id="q1link" style="display: inherit;" class="moduleLink" href="quiz.html?mod=1">Primeira Fase - História de Itapevi</a>
+				<a id="q2link" style="display: none;" class="moduleLink" href="quiz.html?mod=2">Segunda Fase - Poder Legislativo Municipal</a>
+				<a id="q3link" style="display: none;" class="moduleLink" href="quiz.html?mod=3">Terceira Fase - Cidadania</a>
+			</div>
+		</form>
+	</main>
+
+	<div id="Logos" class="centControl">
+			<img src="pics/EPI.jpg" alt="Escola do Parlamento de Itapevi" height="130" style="margin-right: 50px;"/>
+			<img src="pics/CMI.jpg" alt="Câmara Municipal de Itapevi" height="80"/>
+	</div>
+
+	<footer>
+			
+	</footer>
+
+</body>
+</html>

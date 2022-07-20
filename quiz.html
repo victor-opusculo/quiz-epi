@@ -1,0 +1,199 @@
+﻿<!-- Desenvolvido por Victor Opusculo -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Quiz</title>
+	<script type="text/javascript" src="quiz.js"></script>
+	<style type="text/css">
+
+		body 
+		{
+			background-color: white;
+			color: black;
+			font-size: x-large;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-khtml-user-select: none;
+			-webkit-touch-callout: none;
+			-ms-user-select: none;
+			user-select: none;
+			margin: 0;
+		}
+
+		form 
+		{
+			background-color: white;
+			max-width: 700px;
+            min-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 0;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 20px;
+			padding-bottom: 30px;
+            border-radius: 10px;
+		}
+
+		.rightControl { text-align: right; }
+
+		h1, h2, .centControl { text-align: center; }
+
+		#qTitle
+		{
+			display: block;
+			padding: 10px;
+			text-align: center;
+			font-size: 130%;
+			font-weight: bold;
+		}
+		
+		#RadiosPanel label, #RadiosPanel input { cursor: pointer;}
+
+		#MessageBox
+		{
+			position: fixed; /* Sit on top of the page content */
+			display: none; /* Hidden by default */
+			align-items: center;
+			width: 100%; /* Full width (cover the whole page) */
+			height: 100%; /* Full height (cover the whole page) */
+			top: 0; 
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+			z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+		}
+
+		#MessageBox_box
+		{
+			background-color: white;
+			width: 650px;
+			height: auto;
+			margin: auto;
+			padding: 15px;
+			border-radius: 10px
+		}
+
+		.button 
+		{
+			font-size: 18pt;
+			min-width: 25%;
+			border: 1px solid #009600;
+			border-radius: 5px;
+			background-color: #22B14C;
+			color: white;
+			transition-duration: 0.1s;
+			box-shadow: inset 0px -7px 10px 0 rgba(0,0,0,0.2);
+			cursor: pointer;
+			outline: none;
+		}
+		
+		.button:hover { background-color: #009600; }
+		
+		.button:active { box-shadow: inset 0px 7px 10px rgba(0,0,0,0.2); }
+
+        #TipsPanel .button.tip { min-width: unset; width: auto; font-size: 80%; margin: 0px; border-radius: 0px; border-left: none; border-right: none; }
+		#TipsPanel .button.tip:first-of-type { border-radius: 5px 0px 0px 5px; border-left: 1px solid #009600; }
+		#TipsPanel .button.tip:last-of-type { border-radius: 0px 5px 5px 0px; border-right: 1px solid #009600; }
+		#TipsPanel .button.tip:only-of-type { border-radius: 5px; border: 1px solid #009600;}
+		
+		main
+		{
+			display: block;
+			margin: 30px 0 0 0;
+			padding: 0;
+			min-height: calc(100vh - 308px); /* space filler for "Sticky footer" */
+		}
+
+		footer
+		{
+			background-image:url('pics/rodape.jpg');
+			background-repeat: repeat-x;
+			left: 0;
+			right: 0;
+			height: 100px;
+		}
+
+		#Logos
+		{
+			background-color: white;
+			padding: 20px;
+			left: 0;
+			right: 0;
+			overflow: auto;
+		}
+		
+
+	</style>
+</head>
+
+<body>
+
+	<main>
+		<div class="centControl" id="LoadingIcon">
+			<img src="pics/loading.gif" alt="Carregando..."/>
+		</div>
+		<form id="StartPage" style="display:none;">
+			<h1><label id="lblQuizTitle"></label></h1>
+			<label id="lblStartPageContent"></label>
+			<div class="centControl">
+				<input type="button" id="btnStartQuiz" class="button" value="Iniciar">
+			</div>
+		</form>
+		
+		<form id="QuizPage" style="display:none;">
+			<label id="qTitle"></label>
+
+			<div id="TipsPanel" class="rightControl"></div>
+			<div id="RadiosPanel">
+			<!-- DOM -->
+			</div>
+			<br/>
+			<div class="centControl">
+				<input type="button" id="btnNextQ" class="button" value="Próximo">
+			</div>
+
+			<div class="rightControl">
+					<label id="lblScore">0 acerto</label>
+			</div>
+			
+			
+		</form>
+
+		<form id="EndPage" style="display:none;" >
+			<!-- action="email.php" method="post"-->
+
+			<h1>Quiz terminado!</h1>
+			<label id="lblEndPageContent"></label>
+			<div class="centControl" style="margin: 30px 0 30px 0;"><label id="lblResult"></label></div>
+			<div id="postResultContent"></div>
+
+			<!--<input type="text" name="txtText" placeholder="text text"/>
+			<input type="submit" id="btnSubmit" name="submit" value="Enviar"/>-->
+		</form>
+
+	</main>
+
+	<div id="MessageBox">
+		<div id="MessageBox_box">
+			<label id="MessageBox_lblInformation" style="display:block;"></label>
+			<br/>
+			<div class="rightControl">
+				<input type="button" id="MessageBox_btnClose" class="button" value="-"/>
+			</div> 
+		</div>
+	</div>
+
+	<div id="Logos" class="centControl">
+			<img src="pics/EPI.jpg" alt="Escola do Parlamento de Itapevi" height="130" style="margin-right: 50px;"/>
+			<img src="pics/CMI.jpg" alt="Câmara Municipal de Itapevi" height="80"/>
+	</div>
+
+	<footer>
+			
+	</footer>
+
+</body>
+</html>
